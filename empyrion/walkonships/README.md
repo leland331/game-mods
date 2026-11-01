@@ -1,24 +1,38 @@
-# Walk On Ships (Empyrion: Galactic Survival)
+# Walk On Ships
 
-Walk around inside ships while they fly. Work in progress: please report anything odd.
+*A mod for Empyrion: Galactic Survival*
 
-## Download
+Walk around inside your ships while they fly, in single player and multiplayer.
+It's still being play-tested, so please report anything odd.
 
-**[WalkOnShips-install.zip](https://github.com/leland331/game-mods/releases/download/empyrion-walkonships-latest/WalkOnShips-install.zip)** (always the newest version)
+## Features
 
-1. Download the zip above and unzip it anywhere.
-2. Close the game, then double-click `Install.bat` (it finds the game through Steam by itself).
-3. Start Empyrion with EasyAntiCheat **off** (untick EAC in the game's launcher; mods don't load with it on).
+- Walk, jump and build inside a moving ship. You stay where you are instead of being left behind.
+- Other players aboard move smoothly with the ship.
+- Log out on a flying ship and you're back aboard when you log in.
+- Warps: players standing on the ship come along (still being tested).
+- Locked ships: players who aren't allowed aboard are placed just outside.
 
-That's all. The mod keeps itself up to date: each time the game starts it checks for a newer tested version in the
-background (SHA-256 checked) and uses it from the next start. Offline or any problem: the game just starts with what you
-have. What it did is in `Content\Mods\WalkOnShips\updater.log`. To turn updates off, put an empty file named `no-update` there.
+## Install (players)
 
-**Install by hand (Linux/Proton, Steam Deck):** copy the `WalkOnShips` folder from the zip into the game's `Content\Mods` folder.
+Use the **Empyrion Mod Manager**. The download and steps are on the [main page](https://github.com/leland331/game-mods#install).
+Then start the game with EasyAntiCheat off.
 
-**Uninstall:** `Uninstall.bat`, or delete `Content\Mods\WalkOnShips` in the game folder.
+## Install (dedicated server)
 
-**Something wrong in game:** press Ctrl+Shift+K (the mod stops; press again to turn it back on) and send the
-`WalkOnShips*.log` and `updater.log` files from `Content\Mods\WalkOnShips`.
+1. Download `WalkOnShipsServer-empyrion-walkonships-v<version>.zip` from the newest
+   [Walk On Ships release](https://github.com/leland331/game-mods/releases?q=empyrion-walkonships&expanded=true).
+2. Stop the server and delete any old `Content/Mods/WalkOnShipsServer` folder.
+3. Unzip the file into the server's `Content/Mods/` folder.
+4. Turn EasyAntiCheat off for the server, then start it.
 
-Older versions: [Releases](../../../../releases) (tags `empyrion-walkonships-v*`).
+Players need the same version as the server. If the server's mod is missing a part or fails to start, players get
+"Can't connect: WalkOnShips error" instead of joining a half-working game. The details are in the server log.
+
+## Uninstall
+
+In the Mod Manager, click **Uninstall**. Or delete `Content/Mods/WalkOnShips` in the game folder.
+
+## Problems
+
+Send the `WalkOnShips*.log` files from `Content/Mods/WalkOnShips` (on a server, `Content/Mods/WalkOnShipsServer`).
