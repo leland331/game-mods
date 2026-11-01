@@ -11,8 +11,8 @@ Mods for PC games, ready to install. Each game has an easy installer app; you do
 ### Install
 
 1. Download the **Empyrion Mod Manager**:
-   - **Windows:** [EmpyrionModManager.exe](https://github.com/leland331/game-mods/releases/download/empyrion-modmanager-v1.0.0/EmpyrionModManager.exe)
-   - **Linux / Steam Deck (desktop mode):** [EmpyrionModManager-x86_64.AppImage](https://github.com/leland331/game-mods/releases/download/empyrion-modmanager-v1.0.0/EmpyrionModManager-x86_64.AppImage)
+   - **Windows:** [EmpyrionModManager.exe](https://github.com/leland331/game-mods/releases/download/empyrion-modmanager-v1.0.1/EmpyrionModManager.exe)
+   - **Linux / Steam Deck (desktop mode):** [EmpyrionModManager-x86_64.AppImage](https://github.com/leland331/game-mods/releases/download/empyrion-modmanager-v1.0.1/EmpyrionModManager-x86_64.AppImage)
 2. Close the game and open the manager.
    - **Windows:** if it says "Windows protected your PC", click **More info**, then **Run anyway**.
    - **Linux:** right-click the file, open **Properties**, tick **Allow executing**, then double-click it.
